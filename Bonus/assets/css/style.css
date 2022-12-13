@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .date {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container .date .day-of-week,
+.container .date .day,
+.container .date .month,
+.container .date .year {
+  margin: 0;
+}
+.container .date .day-of-week {
+  background-color: red;
+  color: white;
+  padding: 0 15%;
+}
+.container .date .day,
+.container .date .month {
+  color: gray;
+  font-size: 2rem;
+  margin: 5%;
+}
+.container .date .year {
+  background-color: red;
+  color: white;
+  padding: 0 5%;
+}
+.container .time {
+  margin-left: 5%;
+  font-size: 2.5rem;
+}/*# sourceMappingURL=style.css.map */
