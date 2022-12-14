@@ -4,38 +4,52 @@
   justify-content: center;
   height: 95vh;
   margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 
   .date {
     display: flex;
     flex-direction: column;
+    width: 100px;
     text-align: center;
-    .day-of-week,
-    .day,
-    .month,
-    .year {
-      margin: 0;
-    }
+    justify-content: center;
+
 
     .day-of-week {
-      background-color: red;
+      margin: 0;
+      padding: 5%;
       color: white;
-      padding:0 15%;
-
-
+      background: rgb(167, 64, 64);
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
     }
 
-    .day,
-    .month {
-      color: gray;
-      font-size: 2rem;
-      margin: 5%;
+    .day-month {
+      display: flex;
+      flex-direction: column;
+      height: 25vh;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+
+      .day,
+      .month {
+        margin: 0;
+        font-weight: 800;
+        font-size: 2rem;
+        color: grey;
+      }
     }
 
     .year {
-      background-color: red;
+      margin: 0;
+      padding: 5%;
+      align-items: center;
+      justify-content: center;
       color: white;
-      padding: 0 5%;
+      background: rgb(167, 64, 64);
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
     }
   }
 
